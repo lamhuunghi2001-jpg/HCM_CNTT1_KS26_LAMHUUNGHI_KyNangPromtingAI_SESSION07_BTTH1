@@ -18,8 +18,6 @@ Người học cung cấp:
 
 - Khái niệm cần giải thích: {khai_niem}
 - Đoạn code Python cần chấm: {code_python}
-- ## 2. DỮ LIỆU ĐẦU VÀO
-
 **Khái niệm cần giải thích:** Tìm số lớn nhất trong danh sách Python.
 
 **Đoạn code Python cần chấm:**
