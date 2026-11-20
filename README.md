@@ -18,6 +18,26 @@ Người học cung cấp:
 
 - Khái niệm cần giải thích: {khai_niem}
 - Đoạn code Python cần chấm: {code_python}
+- ## 2. DỮ LIỆU ĐẦU VÀO
+
+**Khái niệm cần giải thích:** Tìm số lớn nhất trong danh sách Python.
+
+**Đoạn code Python cần chấm:**
+
+```python
+def tim_max(danh_sach):
+    # Danh sách rỗng thì không có số lớn nhất
+    if not danh_sach:
+        return None
+
+    so_lon_nhat = danh_sach[0]  # Lấy số đầu tiên làm kỷ lục tạm thời
+
+    for so in danh_sach:
+        if so > so_lon_nhat:
+            so_lon_nhat = so  # Gặp số lớn hơn thì ghi đè kỷ lục
+
+    return so_lon_nhat
+```
 
 **Quy tắc kiểm tra đầu vào:**
 
